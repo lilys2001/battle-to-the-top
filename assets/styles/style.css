@@ -7,7 +7,7 @@ body {
 }
 
 #navbar {
-    width: 100%;
+    width: 100vw;
     height: 6vh;
     z-index: 3;
     position: fixed;
@@ -24,7 +24,7 @@ body {
 }
 
 .nav-item {
-    padding: 15px;
+    padding: 1vw;
 }
 
 .nav-item:hover {
@@ -48,16 +48,17 @@ a {
 .page-content {
     display: flex;
     flex-direction: row;
+    padding: 1.5vw;
 }
 
 .page-image {
     height: 70vh;
-    padding: 20px;
+    padding: 1.5vw;
 }
 
 .page-text {
     height: 67vh;
-    padding: 20px;
+    padding: 1.5vw;
     padding-top: 0px;
     font-size: 2.6vh;
     line-height: 3.5vh;
@@ -74,7 +75,7 @@ a {
 }
 
 #title-text {
-    width: 100%;
+    width: 100vw;
     text-align: center;
     text-shadow: -2px 2px #666666;
     position: absolute;
@@ -84,22 +85,27 @@ a {
 h1 {
     margin: 0px;
     font-size: 13vh;
+    text-align: center;
 }
 
 h3 {
-    margin: 10px;
+    margin: .75vw;
     font-size: 7vh;
+    text-align: center;
 }
 
 #tower {
+    z-index: 0;
     position: absolute;
-    bottom: -10vh;
+    bottom: -6vh;
     width: 100vw;
 }
 
 h4 {
-    margin: 15px;
+    z-index: 4;
+    margin: 1vw;
     font-size: 6vh;
+    text-align: center;
 }
 
 #p1, #p2, #p3, #p4, #p5, #p6{
@@ -109,7 +115,7 @@ h4 {
 
 #p6-content {
     height: 47vh;
-    padding: 20px;
+    padding: 1.5vw;
     padding-top: 0px;
     padding-bottom: 0px;
 }
@@ -125,7 +131,7 @@ h4 {
 
 #copyright {
     position: relative;
-    padding-bottom: 15px;
+    padding-bottom: 1vw;
     text-align: center;
     font-size: 2.6vh;
     background-color: #280000;
